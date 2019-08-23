@@ -1,0 +1,222 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: rgb(23, 23, 29); */
+    background-color: black;
+}
+
+
+.harveyshan_main{
+    /* background-image: url("harvey.png"); */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.harveyshan_main .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.harveyshan_main .harveyPic{
+    background-image: url("harvey.png");
+    flex-grow: 1;
+    min-height: 65vh;
+    max-height: 70vh;
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.harveyshan_title{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.intro{
+    color: grey;
+    font-size: 1rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 13% 40px;
+}
+
+@media(max-width: 900px) {
+    .harveyshan_main .img-wrapper{
+        display: none;
+    }
+
+    .harveyshan_main .harveyshan_title{
+        justify-content: center;
+    }
+}
+
+.experience_background{
+    background-image: url("experiencebg.png");
+    padding: 0;
+    margin: 0;
+}
+
+.experience_title{
+    font-size: 1.2rem;
+    color: white;
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+}
+
+.experience_subtitle{
+    color: grey;
+    font-size: 1rem;
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.job_title{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.company{
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.time{
+    color: grey;
+    font-size: 1.2rem;
+    padding-block-end: 5%;
+}
+
+.job_first{
+    color: white;
+    font-size: 1.2rem;
+    padding-block-end: 8%;
+}
+
+.job_second{
+    color: white;
+    font-size: 1.2rem;
+    padding-block-end: 8%;
+}
+
+.experience_contents{
+    display: flex;
+    padding-block-end: 10%;
+}
+
+/* .experience_position{
+    float: left;
+}
+
+.experience_description{
+    float: left;
+} */
+
+.job_third{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.abilities_background{
+    background-image: url("ProjectBG.png");
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+#ab_title{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#sk{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+/* #sk_title{
+    flex-grow: 2;
+}
+
+#sk_contents{
+    flex-grow: 1;
+} */
+
+#tol{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+/* #tols_contents{
+    flex-grow: 1;
+} */
+
+#contact_bg{
+    background-image: url("contactBG.png");
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#contact_title{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5%;
+    padding-block-end: 2%;
+}
+
+#contact_cont{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* .icon{
+    size: 20%;
+} */
+
+.social_name{
+    color: white;
+    font-size: 1.5rem;
+}
+
+hr{
+    color: grey;
+}
+
+.page-bottom{
+    padding-block-end: 8%;
+}
